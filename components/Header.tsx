@@ -20,17 +20,8 @@ const Header: React.FunctionComponent<Props> = ({ lang }) => {
                 </span>
                 !
               </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
-                This ecommerce store is a demo template built using {""}
-                <a
-                  href="//commercelayer.io?utm_source=commercelayer-sanity-template"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Commerce Layer
-                </a>
-                , an API-first global commerce solution that can easily make any digital experience shoppable through a
-                suite of developer tools.
+              <p className="mt-6 text-lg leading-8 text-gray-600 capitalize">
+              This is a template E-Commerce Store for E-Dome. This will reference any needed product lines in the future. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ea optio labore aliquid velit repellat consequatur reiciendis tempore at aut.
               </p>
               <div className="mt-16 flex items-center gap-x-6">
                 <a
