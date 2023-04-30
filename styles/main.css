@@ -1,0 +1,36 @@
+@import url("//data.commercelayer.app/assets/fonts/eina01.min.css");
+@import url("//data.commercelayer.app/assets/fonts/fontawesome.min.css");
+/* @import url("//data.commercelayer.app/assets/css/commercelayer.min.css"); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Eina01", "sans-serif";
+  font-display: swap;
+  height: 100vh;
+  @apply bg-ashy;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+  font-style: normal;
+}
+
+#__next {
+  height: 100%;
+}
+
+section.content {
+  min-height: calc(100vh - 20vh);
+}
